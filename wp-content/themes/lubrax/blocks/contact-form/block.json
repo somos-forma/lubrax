@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/contact-form",
+	"title": "Formulario de contacto",
+	"category": "lubrax",
+	"icon": "email",
+	"description": "Formulario de Contact Form 7 con el diseño de la maqueta (motivos, campos condicionales y número de caso), recuadro lateral y preguntas de atención.",
+	"keywords": [
+		"contacto",
+		"formulario",
+		"cf7"
+	],
+	"textdomain": "lubrax",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"align": false,
+		"mode": true
+	}
+}

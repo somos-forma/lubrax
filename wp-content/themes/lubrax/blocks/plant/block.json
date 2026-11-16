@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/plant",
+	"title": "Planta",
+	"category": "lubrax",
+	"icon": "building",
+	"description": "Texto, imagen y tarjeta destacada (planta de Maipú).",
+	"keywords": [
+		"planta",
+		"iso"
+	],
+	"textdomain": "lubrax",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"html": false,
+		"multiple": true,
+		"align": false,
+		"mode": true
+	}
+}

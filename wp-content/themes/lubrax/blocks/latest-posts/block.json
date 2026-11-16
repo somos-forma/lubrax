@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/latest-posts",
+	"title": "Noticias",
+	"category": "lubrax",
+	"icon": "admin-post",
+	"description": "Últimas entradas del blog con las tarjetas del listado.",
+	"keywords": [
+		"blog",
+		"noticias"
+	],
+	"textdomain": "lubrax",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"html": false,
+		"multiple": true,
+		"align": false,
+		"mode": true
+	}
+}

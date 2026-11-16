@@ -1,0 +1,1006 @@
+{
+    "key": "group_lbx_theme_options",
+    "title": "Opciones del tema",
+    "fields": [
+        {
+            "key": "field_lbx_tab_contacto",
+            "label": "Contacto",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_phone",
+            "label": "Teléfono de atención",
+            "name": "lbx_phone",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Se muestra en el footer y el menú lateral. El enlace tel: se arma solo.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "800 363 776",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_email",
+            "label": "Correo de atención",
+            "name": "lbx_email",
+            "aria-label": "",
+            "type": "email",
+            "instructions": "Se muestra en el footer y el menú lateral.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "atencion@lubrax.com",
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_whatsapp",
+            "label": "WhatsApp",
+            "name": "lbx_whatsapp",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Vacío: no se muestra.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "+569 3917 1917",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_phone_note",
+            "label": "Nota del teléfono",
+            "name": "lbx_phone_note",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Se muestra bajo el canal en la página de contacto.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "Lun a Vie 8:00–18:00 · pedidos, entregas y reclamos",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_email_note",
+            "label": "Nota del correo",
+            "name": "lbx_email_note",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "Respuesta con número de caso en menos de 24 h hábiles",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_whatsapp_note",
+            "label": "Nota de WhatsApp",
+            "name": "lbx_whatsapp_note",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "Consultas rápidas de producto y disponibilidad",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_address",
+            "label": "Dirección",
+            "name": "lbx_address",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Cerro Colorado 5240, Torre 1, piso 12.\nLas Condes. Chile.",
+            "rows": 2,
+            "new_lines": "",
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_lbx_tab_redes",
+            "label": "Redes sociales",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_instagram",
+            "label": "Instagram",
+            "name": "lbx_instagram",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "Una red sin URL no se muestra.",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https://www.instagram.com/",
+            "placeholder": ""
+        },
+        {
+            "key": "field_lbx_facebook",
+            "label": "Facebook",
+            "name": "lbx_facebook",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https://www.facebook.com/",
+            "placeholder": ""
+        },
+        {
+            "key": "field_lbx_youtube",
+            "label": "YouTube",
+            "name": "lbx_youtube",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https://www.youtube.com/",
+            "placeholder": ""
+        },
+        {
+            "key": "field_lbx_linkedin",
+            "label": "LinkedIn",
+            "name": "lbx_linkedin",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https://www.linkedin.com/",
+            "placeholder": ""
+        },
+        {
+            "key": "field_lbx_tab_footer",
+            "label": "Footer",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_footer_text",
+            "label": "Texto del footer",
+            "name": "lbx_footer_text",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Nuestra línea de lubricantes Lubrax, es desarrollado bajo las normas y especificaciones más exigentes del mundo. Combina tecnología y calidad para ofrecer un portafolio de productos sintéticos, semisintéticos y minerales, que responden a los requerimientos automotrices e industriales.",
+            "rows": 4,
+            "new_lines": "",
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_lbx_tab_forms",
+            "label": "Formularios",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_forms_help",
+            "label": "Enrutamiento",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Cada motivo del formulario de contacto llega a un área:<br><b>Comercial</b>: quiero ser cliente, quiero ser distribuidor, ventas industriales, pedido y disponibilidad, sugerencia o felicitación.<br><b>Técnico</b>: consulta técnica, capacitación técnica, análisis de aceite (lubrax express), reclamo de producto, garantía.<br><b>Distribuidores</b>: reclamo de servicio o entrega.<br>Si un área no tiene correos, el mensaje llega al correo de atención (pestaña Contacto). Los envíos quedan guardados en «Contact Forms» (CFDB7). Turnstile o reCAPTCHA se activan en Contacto > Integración.",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_lbx_form_to_comercial",
+            "label": "Correos del área Comercial",
+            "name": "lbx_form_to_comercial",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Varios: separados por coma.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "ventas@lubrax.com",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_form_to_tecnico",
+            "label": "Correos del área Técnica",
+            "name": "lbx_form_to_tecnico",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "tecnico@lubrax.com",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_form_to_distribuidores",
+            "label": "Correos del área Distribuidores",
+            "name": "lbx_form_to_distribuidores",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "distribuidores@lubrax.com",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_form_contact",
+            "label": "Formulario de contacto",
+            "name": "lbx_form_contact",
+            "aria-label": "",
+            "type": "post_object",
+            "instructions": "Formulario de Contact Form 7 de la página de contacto. Vacío: el que creó el tema.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "wpcf7_contact_form"
+            ],
+            "post_status": [
+                "publish"
+            ],
+            "taxonomy": "",
+            "return_format": "id",
+            "multiple": 0,
+            "allow_null": 1,
+            "bidirectional": 0,
+            "ui": 1,
+            "bidirectional_target": []
+        },
+        {
+            "key": "field_lbx_form_newsletter",
+            "label": "Formulario del newsletter",
+            "name": "lbx_form_newsletter",
+            "aria-label": "",
+            "type": "post_object",
+            "instructions": "Formulario del footer. Vacío: el que creó el tema.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "wpcf7_contact_form"
+            ],
+            "post_status": [
+                "publish"
+            ],
+            "taxonomy": "",
+            "return_format": "id",
+            "multiple": 0,
+            "allow_null": 1,
+            "bidirectional": 0,
+            "ui": 1,
+            "bidirectional_target": []
+        },
+        {
+            "key": "field_lbx_tab_promo",
+            "label": "Banner del catálogo",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_promo_help",
+            "label": "Banner del catálogo",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "new_lines": "",
+            "esc_html": 0,
+            "message": "Tarjeta bajo los filtros, en la columna izquierda del catálogo (/productos/) y de cada segmento. Si un campo queda vacío se usa el contenido de la maqueta."
+        },
+        {
+            "key": "field_lbx_promo_show",
+            "label": "Mostrar el banner",
+            "name": "lbx_promo_show",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "message": "Mostrar",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "Sí",
+            "ui_off_text": "No"
+        },
+        {
+            "key": "field_lbx_promo_title",
+            "label": "Título",
+            "name": "lbx_promo_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_lbx_promo_show",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "35",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": 60,
+            "placeholder": "Ya disponibles en 1 L y 4 L",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_promo_text",
+            "label": "Descripción",
+            "name": "lbx_promo_text",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_lbx_promo_show",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": 140,
+            "rows": 2,
+            "placeholder": "Línea automotriz en formatos de mostrador.",
+            "new_lines": ""
+        },
+        {
+            "key": "field_lbx_promo_link",
+            "label": "Enlace",
+            "name": "lbx_promo_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "Toda la tarjeta es el enlace. Vacío: segmento Automotriz.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_lbx_promo_show",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "35",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_lbx_promo_image",
+            "label": "Imagen",
+            "name": "lbx_promo_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Envase recortado con fondo transparente (PNG o WebP), unos 420 × 520 px. Vacío: envase de 4 L de la maqueta.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_lbx_promo_show",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "25",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "webp,avif,png,jpg,jpeg",
+            "preview_size": "thumbnail"
+        },
+        {
+            "key": "field_lbx_promo_bg",
+            "label": "Color de fondo",
+            "name": "lbx_promo_bg",
+            "aria-label": "",
+            "type": "color_picker",
+            "instructions": "Verde de la marca: #032b1a.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_lbx_promo_show",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "#032b1a",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_lbx_promo_tone",
+            "label": "Color del texto",
+            "name": "lbx_promo_tone",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "Elige el que contraste con el fondo.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_lbx_promo_show",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "20",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "claro": "Claro (para fondos oscuros)",
+                "oscuro": "Oscuro (para fondos claros)"
+            },
+            "default_value": "claro",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "create_options": 0,
+            "save_options": 0
+        },
+        {
+            "key": "field_lbx_tab_404",
+            "label": "Página 404",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_e404_help",
+            "label": "Página no encontrada",
+            "name": "",
+            "aria-label": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Textos de la página que se muestra cuando una dirección no existe (estado 404 real, sin redirección). Si un campo queda vacío se usa el texto de la maqueta.",
+            "new_lines": "",
+            "esc_html": 0
+        },
+        {
+            "key": "field_lbx_e404_kicker",
+            "label": "Antetítulo",
+            "name": "lbx_e404_kicker",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "Error 404 · Página no encontrada",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_e404_title",
+            "label": "Título",
+            "name": "lbx_e404_title",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Cada línea entra por separado (animación).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "60",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "Esta página\nse nos escurrió",
+            "new_lines": ""
+        },
+        {
+            "key": "field_lbx_e404_lead",
+            "label": "Texto",
+            "name": "lbx_e404_lead",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 3,
+            "placeholder": "Puede que el enlace esté roto o que la página haya cambiado de dirección. Vuelve a la página anterior o sigue explorando el sitio.",
+            "new_lines": ""
+        },
+        {
+            "key": "field_lbx_e404_back",
+            "label": "Botón «Volver atrás»",
+            "name": "lbx_e404_back",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Regresa a la página anterior; sin historial, lleva al inicio.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "Volver atrás",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_e404_button",
+            "label": "Segundo botón",
+            "name": "lbx_e404_button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "Vacío: «Ir al catálogo».",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_lbx_e404_search",
+            "label": "Texto del buscador",
+            "name": "lbx_e404_search",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Busca en todo el sitio. Vacío: «Busca un producto, viscosidad o norma».",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "Busca un producto, viscosidad o norma",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_e404_links_title",
+            "label": "Título de los enlaces",
+            "name": "lbx_e404_links_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "También puedes ir a",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_e404_links",
+            "label": "Enlaces útiles",
+            "name": "lbx_e404_links",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Vacío: Inicio, Distribuidores, Blog y Contacto.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "60",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 8,
+            "collapsed": "",
+            "button_label": "Agregar enlace",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_lbx_e404_link",
+                    "label": "Enlace",
+                    "name": "enlace",
+                    "aria-label": "",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "parent_repeater": "field_lbx_e404_links"
+                }
+            ]
+        },
+        {
+            "key": "field_lbx_e404_description",
+            "label": "Descripción para buscadores y redes",
+            "name": "lbx_e404_description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "La página que buscas no existe o cambió de dirección. Vuelve atrás o sigue explorando el catálogo de lubricantes Lubrax.",
+            "new_lines": ""
+        },
+        {
+            "key": "field_lbx_tab_mapa",
+            "label": "Mapa",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_tile_url",
+            "label": "URL de teselas del mapa",
+            "name": "lbx_tile_url",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Plantilla Leaflet con {z}, {x}, {y}. OpenStreetMap limita el uso intensivo: en producción conviene un proveedor con clave (MapTiler, Stadia, Mapbox), p. ej. https://api.maptiler.com/maps/streets-v2/{z}/{x}/{y}.png?key=TU_CLAVE",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_tile_attribution",
+            "label": "Atribución del mapa",
+            "name": "lbx_tile_attribution",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Texto legal que exige el proveedor (admite enlaces).",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "70",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a>",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_tile_max_zoom",
+            "label": "Zoom máximo",
+            "name": "lbx_tile_max_zoom",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": false,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 18,
+            "min": 1,
+            "max": 22,
+            "step": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "lbx-opciones"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Datos globales del sitio: header, menú lateral y footer.",
+    "show_in_rest": 0,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1792971050
+}

@@ -1,0 +1,464 @@
+{
+    "key": "group_lbx_distribuidor",
+    "title": "Datos del distribuidor",
+    "fields": [
+        {
+            "key": "field_lbx_dist_tab_general",
+            "label": "General",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_dist_zona",
+            "label": "Nombre corto (zona)",
+            "name": "zona",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Se muestra en el header: «Distribuidor · Zona Talca». Vacío: «Zona {ciudad}».",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "Zona Talca",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_dist_tipo_compra",
+            "label": "Tipo de compra",
+            "name": "tipo_compra",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Mayorista": "Mayorista",
+                "Minorista": "Minorista"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "save_custom": 0,
+            "layout": "horizontal",
+            "toggle": 0,
+            "custom_choice_button_text": "Agregar otra"
+        },
+        {
+            "key": "field_lbx_dist_presentaciones",
+            "label": "Presentaciones que ofrece",
+            "name": "presentaciones",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "1 L": "1 L",
+                "4 L": "4 L",
+                "20 L": "20 L",
+                "Cubeta 19 L": "Cubeta 19 L",
+                "Tambo 200 L": "Tambo 200 L",
+                "Granel 1000 L": "Granel 1000 L"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 1,
+            "save_custom": 0,
+            "layout": "horizontal",
+            "toggle": 0,
+            "custom_choice_button_text": "Agregar otra"
+        },
+        {
+            "key": "field_lbx_dist_capacidad",
+            "label": "Capacidad logística",
+            "name": "capacidad",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Stock completo": "Stock completo",
+                "Granel y tambos": "Granel y tambos",
+                "Línea marítima": "Línea marítima",
+                "Línea pesada": "Línea pesada",
+                "Línea automotriz": "Línea automotriz",
+                "Línea motocicleta": "Línea motocicleta",
+                "Línea agrícola": "Línea agrícola",
+                "Línea industrial": "Línea industrial",
+                "Línea ferroviaria": "Línea ferroviaria"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 1,
+            "save_custom": 0,
+            "layout": "horizontal",
+            "toggle": 0,
+            "custom_choice_button_text": "Agregar otra"
+        },
+        {
+            "key": "field_lbx_dist_tab_contacto",
+            "label": "Contacto",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_dist_telefono",
+            "label": "Teléfono",
+            "name": "telefono",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_dist_email",
+            "label": "Correo",
+            "name": "email",
+            "aria-label": "",
+            "type": "email",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_dist_web",
+            "label": "Sitio web",
+            "name": "web",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_lbx_dist_horario",
+            "label": "Horario",
+            "name": "horario",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "Lun a Vie 8:30–18:30 · Sáb 9:00–13:00",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_dist_tab_ubicacion",
+            "label": "Ubicación",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_dist_direccion",
+            "label": "Dirección",
+            "name": "direccion",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_dist_region",
+            "label": "Región",
+            "name": "region",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Arica y Parinacota": "Arica y Parinacota",
+                "Tarapacá": "Tarapacá",
+                "Antofagasta": "Antofagasta",
+                "Atacama": "Atacama",
+                "Coquimbo": "Coquimbo",
+                "Valparaíso": "Valparaíso",
+                "Metropolitana de Santiago": "Metropolitana de Santiago",
+                "Libertador General Bernardo O'Higgins": "Libertador General Bernardo O'Higgins",
+                "Maule": "Maule",
+                "Ñuble": "Ñuble",
+                "Biobío": "Biobío",
+                "La Araucanía": "La Araucanía",
+                "Los Ríos": "Los Ríos",
+                "Los Lagos": "Los Lagos",
+                "Aysén del General Carlos Ibáñez del Campo": "Aysén del General Carlos Ibáñez del Campo",
+                "Magallanes y de la Antártica Chilena": "Magallanes y de la Antártica Chilena"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 1,
+            "ui": 1,
+            "ajax": 0,
+            "placeholder": "",
+            "create_options": 0,
+            "save_options": 0
+        },
+        {
+            "key": "field_lbx_dist_ciudad",
+            "label": "Comuna",
+            "name": "ciudad",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "Elige primero la región: la lista muestra solo sus comunas. Si eliges la comuna antes, la región se completa sola.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {},
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 1,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "create_options": 0,
+            "save_options": 0
+        },
+        {
+            "key": "field_lbx_dist_maps",
+            "label": "Enlace de Google Maps",
+            "name": "link_maps",
+            "aria-label": "",
+            "type": "url",
+            "instructions": "Si el enlace incluye las coordenadas, latitud y longitud se completan solas al guardar.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_lbx_dist_lat",
+            "label": "Latitud",
+            "name": "lat",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Ej.: -35.4264",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": -90,
+            "max": 90,
+            "step": "any",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_dist_lng",
+            "label": "Longitud",
+            "name": "lng",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Ej.: -71.6554",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": -180,
+            "max": 180,
+            "step": "any",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_dist_tab_productos",
+            "label": "Productos",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_dist_productos",
+            "label": "Portafolio de productos",
+            "name": "productos",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Relación bidireccional: también se actualiza en la ficha de cada producto. Define la disponibilidad por zona.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "product"
+            ],
+            "post_status": [
+                "publish",
+                "draft"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search"
+            ],
+            "return_format": "id",
+            "min": "",
+            "max": "",
+            "elements": "",
+            "bidirectional": 1,
+            "bidirectional_target": [
+                "field_lbx_prod_distribuidores"
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "distribuidor"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Datos de contacto, ubicación (mapa) y portafolio.",
+    "show_in_rest": 1,
+    "modified": 1792969734
+}

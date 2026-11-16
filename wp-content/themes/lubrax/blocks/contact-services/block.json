@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/contact-services",
+	"title": "Servicios de contacto",
+	"category": "lubrax",
+	"icon": "id",
+	"description": "Tarjetas de servicios: cada botón elige el motivo del formulario de contacto y baja hasta él.",
+	"keywords": [
+		"contacto",
+		"servicios"
+	],
+	"textdomain": "lubrax",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"align": false,
+		"mode": true
+	}
+}

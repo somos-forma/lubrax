@@ -1,0 +1,515 @@
+{
+    "key": "group_lbx_producto",
+    "title": "Ficha técnica del producto",
+    "fields": [
+        {
+            "key": "field_lbx_prod_tab_ficha",
+            "label": "Ficha",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_prod_presentaciones",
+            "label": "Presentaciones",
+            "name": "presentaciones",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Formatos en que se vende el producto.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Agregar presentación",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_lbx_prod_pres_envase",
+                    "label": "Envase",
+                    "name": "envase",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "40",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "1 L": "1 L",
+                        "4 L": "4 L",
+                        "20 L": "20 L",
+                        "Cubeta 19 L": "Cubeta 19 L",
+                        "Tambor 200 L": "Tambor 200 L",
+                        "Granel 1000 L": "Granel 1000 L"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "allow_in_bindings": 1,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0,
+                    "parent_repeater": "field_lbx_prod_presentaciones"
+                },
+                {
+                    "key": "field_lbx_prod_pres_imagen",
+                    "label": "Imagen del envase",
+                    "name": "imagen",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Al elegir la presentación en la ficha, cambia la imagen principal.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "60",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "webp,avif,jpg,jpeg,png",
+                    "preview_size": "thumbnail",
+                    "parent_repeater": "field_lbx_prod_presentaciones"
+                }
+            ]
+        },
+        {
+            "key": "field_lbx_prod_aplicaciones",
+            "label": "Aplicaciones recomendadas",
+            "name": "aplicaciones",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Agregar aplicación",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_lbx_prod_aplicacion",
+                    "label": "Aplicación",
+                    "name": "texto",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_lbx_prod_aplicaciones"
+                }
+            ]
+        },
+        {
+            "key": "field_lbx_prod_normas",
+            "label": "Normas y homologaciones",
+            "name": "normas",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Aprobaciones de fabricantes u homologaciones adicionales. Las especificaciones (API, ACEA, DIN…) se eligen en la taxonomía Especificación técnica.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 3,
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_lbx_prod_tab_propiedades",
+            "label": "Propiedades típicas",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_prod_propiedades",
+            "label": "Propiedades típicas",
+            "name": "propiedades",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Se muestran en la tabla de propiedades de la ficha, en este orden.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Agregar propiedad",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_lbx_prod_prop_nombre",
+                    "label": "Propiedad",
+                    "name": "propiedad",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "Viscosidad a 100 °C",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_lbx_prod_propiedades"
+                },
+                {
+                    "key": "field_lbx_prod_prop_valor",
+                    "label": "Valor",
+                    "name": "valor",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "10,9 mm²\/s",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_lbx_prod_propiedades"
+                }
+            ]
+        },
+        {
+            "key": "field_lbx_prod_tab_documentos",
+            "label": "Documentos",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_prod_documentos",
+            "label": "Documentos (PDF)",
+            "name": "documentos",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Fichas técnicas y hojas de seguridad. También alimentan el repositorio de documentación técnica.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Agregar documento",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_lbx_prod_doc_tipo",
+                    "label": "Tipo",
+                    "name": "tipo",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "ficha-tecnica": "Ficha técnica",
+                        "hoja-seguridad": "Hoja de seguridad (SDS)",
+                        "otro": "Otro"
+                    },
+                    "default_value": "ficha-tecnica",
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0,
+                    "parent_repeater": "field_lbx_prod_documentos"
+                },
+                {
+                    "key": "field_lbx_prod_doc_archivo",
+                    "label": "Archivo PDF",
+                    "name": "archivo",
+                    "aria-label": "",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "35",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "id",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": "pdf",
+                    "parent_repeater": "field_lbx_prod_documentos"
+                },
+                {
+                    "key": "field_lbx_prod_doc_titulo",
+                    "label": "Título (opcional)",
+                    "name": "titulo",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "20",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_lbx_prod_documentos"
+                },
+                {
+                    "key": "field_lbx_prod_doc_fecha",
+                    "label": "Actualizado",
+                    "name": "actualizado",
+                    "aria-label": "",
+                    "type": "date_picker",
+                    "instructions": "Vacío: fecha de subida.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "20",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "d\/m\/Y",
+                    "return_format": "Y-m-d",
+                    "first_day": 1,
+                    "parent_repeater": "field_lbx_prod_documentos",
+                    "default_to_current_date": 0
+                }
+            ]
+        },
+        {
+            "key": "field_lbx_prod_tab_distribuidores",
+            "label": "Distribuidores",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_prod_distribuidores",
+            "label": "Distribuidores que lo venden",
+            "name": "distribuidores",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Relación bidireccional: también se actualiza en la ficha de cada distribuidor.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "distribuidor"
+            ],
+            "post_status": [
+                "publish",
+                "draft"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search"
+            ],
+            "return_format": "id",
+            "min": "",
+            "max": "",
+            "elements": "",
+            "bidirectional": 1,
+            "bidirectional_target": [
+                "field_lbx_dist_productos"
+            ]
+        },
+        {
+            "key": "field_lbx_prod_tab_relacionados",
+            "label": "Relacionados",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0,
+            "selected": 0
+        },
+        {
+            "key": "field_lbx_prod_relacionados",
+            "label": "Productos relacionados",
+            "name": "relacionados",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "Opcional. Vacío: se muestran productos del mismo segmento.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "product"
+            ],
+            "post_status": [
+                "publish",
+                "draft"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search"
+            ],
+            "return_format": "id",
+            "min": "",
+            "max": 3,
+            "elements": "",
+            "bidirectional": 0,
+            "bidirectional_target": []
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Campos de la ficha de producto (maqueta producto.html).",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1793211314
+}

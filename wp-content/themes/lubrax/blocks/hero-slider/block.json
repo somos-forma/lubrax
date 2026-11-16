@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/hero-slider",
+	"title": "Slider principal",
+	"category": "lubrax",
+	"icon": "slides",
+	"description": "Carrusel a pantalla completa con antetítulo, título, texto y botón por diapositiva. Variante para envase recortado.",
+	"keywords": [ "hero", "carrusel", "slider", "portada" ],
+	"textdomain": "lubrax",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"align": false,
+		"mode": true
+	}
+}

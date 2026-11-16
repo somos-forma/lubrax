@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/product-finder",
+	"title": "Buscador de productos",
+	"category": "lubrax",
+	"icon": "search",
+	"description": "Pestañas «Por categoría y viscosidad» y «Búsqueda libre» hacia el catálogo.",
+	"keywords": [
+		"buscador",
+		"viscosidad"
+	],
+	"textdomain": "lubrax",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"align": false,
+		"mode": true
+	}
+}

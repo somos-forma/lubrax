@@ -1,0 +1,15 @@
+/*
+Theme Name: Lubrax
+Theme URI: https://www.lubrax.cl/
+Author: Forma
+Author URI: https://somosforma.com/
+Description: Block theme a medida para Lubrax. Usa Bootstrap 5.3 y la maqueta del proyecto (assets/css/main.css) sobre theme.json y plantillas de bloques.
+Requires at least: 6.6
+Tested up to: 7.1
+Requires PHP: 8.1
+Version: 0.1.0
+License: Propietaria
+Text Domain: lubrax
+*/
+
+/* Los estilos del sitio están en assets/css/main.css (maqueta) y assets/css/wp-compat.css (ajustes para WordPress). */

@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/intro",
+	"title": "Catálogo regional",
+	"category": "lubrax",
+	"icon": "format-image",
+	"description": "Imagen y texto con título animado, botón y enlace (home).",
+	"keywords": [
+		"intro",
+		"texto",
+		"imagen"
+	],
+	"textdomain": "lubrax",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"html": false,
+		"multiple": true,
+		"align": false,
+		"mode": true
+	}
+}

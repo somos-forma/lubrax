@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/distributor-locator",
+	"title": "Localizador de distribuidores",
+	"category": "lubrax",
+	"icon": "location-alt",
+	"description": "Mapa (Leaflet) y listado de distribuidores con filtros por región, producto y texto, \"cerca de mí\" y perfil ampliado. Los datos vienen de Distribuidores.",
+	"textdomain": "lubrax",
+	"attributes": {},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"render": "file:./render.php"
+}

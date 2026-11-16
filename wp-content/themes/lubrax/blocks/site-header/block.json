@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/site-header",
+	"title": "Encabezado Lubrax",
+	"category": "lubrax",
+	"icon": "table-row-before",
+	"description": "Logo, selector de distribuidor, menú principal (Apariencia > Menús) y botón de llamada a la acción.",
+	"textdomain": "lubrax",
+	"attributes": {
+		"showCta": { "type": "boolean", "default": true },
+		"ctaLabel": { "type": "string", "default": "Quiero ser distribuidor" },
+		"ctaTipo": { "type": "string", "default": "distribuidor" }
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false,
+		"inserter": false
+	},
+	"render": "file:./render.php"
+}

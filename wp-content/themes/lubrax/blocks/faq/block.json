@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/faq",
+	"title": "Preguntas frecuentes",
+	"category": "lubrax",
+	"icon": "editor-help",
+	"description": "Acordeón con buscador y datos estructurados FAQPage.",
+	"keywords": [
+		"faq",
+		"preguntas"
+	],
+	"textdomain": "lubrax",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"align": false,
+		"mode": true
+	}
+}

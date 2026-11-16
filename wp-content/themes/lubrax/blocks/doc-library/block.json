@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/doc-library",
+	"title": "Documentación técnica",
+	"category": "lubrax",
+	"icon": "media-spreadsheet",
+	"description": "Repositorio de fichas técnicas y hojas de seguridad (PDF) de todos los productos, con búsqueda y filtros por segmento y tipo de documento.",
+	"textdomain": "lubrax",
+	"attributes": {
+		"perPage": { "type": "number", "default": 12 }
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"render": "file:./render.php"
+}

@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/product-catalog",
+	"title": "Catálogo de productos",
+	"category": "lubrax",
+	"icon": "products",
+	"description": "Encabezado, filtros combinados (segmento, tipo, base, viscosidad, especificación, combustible), búsqueda, orden y grilla de productos. En el archivo de una taxonomía arranca filtrado.",
+	"textdomain": "lubrax",
+	"attributes": {
+		"title": { "type": "string", "default": "Catálogo de productos" }
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"render": "file:./render.php"
+}

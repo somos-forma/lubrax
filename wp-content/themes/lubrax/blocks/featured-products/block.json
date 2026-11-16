@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/featured-products",
+	"title": "Productos destacados",
+	"category": "lubrax",
+	"icon": "star-filled",
+	"description": "Tarjetas de los productos destacados del catálogo.",
+	"keywords": [
+		"productos",
+		"destacados"
+	],
+	"textdomain": "lubrax",
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"html": false,
+		"multiple": true,
+		"align": false,
+		"mode": true
+	}
+}

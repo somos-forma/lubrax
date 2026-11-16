@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/error-404",
+	"title": "Página no encontrada",
+	"category": "lubrax",
+	"icon": "warning",
+	"description": "Contenido de la página 404 (404.html de la maqueta): volver atrás, ir al catálogo, buscador y enlaces útiles. Los textos se editan en Opciones del tema > Página 404.",
+	"textdomain": "lubrax",
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"render": "file:./render.php"
+}

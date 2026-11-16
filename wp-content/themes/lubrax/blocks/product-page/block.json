@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/product-page",
+	"title": "Ficha de producto",
+	"category": "lubrax",
+	"icon": "media-document",
+	"description": "Galería, presentaciones, disponibilidad, aplicaciones, propiedades, documentos PDF, distribuidores y productos relacionados.",
+	"textdomain": "lubrax",
+	"usesContext": [ "postId", "postType" ],
+	"attributes": {
+		"wholesaleTitle": { "type": "string", "default": "¿Compras por volumen?" },
+		"wholesaleText": { "type": "string", "default": "Tambores, IBC y granel para flotas, minería e industria. Te conectamos con el distribuidor mayorista de tu zona." },
+		"relatedTitle": { "type": "string", "default": "Productos relacionados" }
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"render": "file:./render.php"
+}

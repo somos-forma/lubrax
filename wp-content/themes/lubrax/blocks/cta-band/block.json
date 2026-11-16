@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/cta-band",
+	"title": "Banda de llamada a la acción",
+	"category": "lubrax",
+	"icon": "megaphone",
+	"description": "Título, bajada y uno o dos botones sobre la banda amarilla de la maqueta.",
+	"textdomain": "lubrax",
+	"attributes": {
+		"title": { "type": "string", "default": "¿No encuentras lo que buscas?" },
+		"text": { "type": "string", "default": "Nuestro equipo técnico te ayuda a elegir el lubricante correcto para tu equipo o flota." },
+		"primaryLabel": { "type": "string", "default": "Consulta técnica" },
+		"primaryUrl": { "type": "string", "default": "" },
+		"secondaryLabel": { "type": "string", "default": "Buscar distribuidor" },
+		"secondaryUrl": { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false
+	},
+	"render": "file:./render.php"
+}

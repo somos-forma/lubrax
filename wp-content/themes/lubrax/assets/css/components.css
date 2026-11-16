@@ -1,0 +1,79 @@
+/*!
+ * Lubrax · components.css
+ * Componentes nuevos de WordPress que no estaban en la maqueta. Usan los tokens de main.css.
+ *
+ * Índice
+ *  01. Repositorio de documentación técnica (bloque lubrax/doc-library)
+ *  02. Bloques core con el diseño de la maqueta (artículo del blog, cifras, imágenes)
+ */
+
+/* ==========================================================================
+   01. Repositorio de documentación técnica
+   ========================================================================== */
+.doc-library.section { padding-block: clamp(2rem, 4vw, 3rem) clamp(3rem, 6vw, 5rem); } /* Igual que .locator */
+.doc-library #docGrid > li { display: flex; }
+.doc-library #docGrid > li[hidden] { display: none; }
+.doc-library .doc-card { flex: 1; align-items: start; }
+.doc-card__product { margin: 0 0 .15rem; font-family: var(--font-display); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.doc-card__product a { color: var(--lbx-green); text-decoration: none; }
+.doc-card__product a:hover { text-decoration: underline; }
+
+/* ==========================================================================
+   02. Bloques core con el diseño de la maqueta
+   ========================================================================== */
+/* Imagen dentro del artículo: igual que figure.entry-figure de blogarticle.html */
+.entry-content .wp-block-image { margin: 2rem 0; }
+.entry-content .wp-block-image img { border-radius: var(--radius); }
+.entry-content .wp-block-image figcaption { margin-top: .5rem; font-size: .8125rem; color: var(--lbx-muted); text-align: left; }
+
+/* Cifras (patrón "Cifras"): los párrafos del bloque se comportan como los <span> de la maqueta */
+.stat > p { margin-bottom: 0; }
+.stats > * { margin-block: 0; } /* Grilla: sin el espaciado vertical de WordPress entre bloques */
+
+/* Imagen con bordes redondeados (patrón "Sobre Lubrax") */
+.wp-block-image.media-rounded { margin: 0; overflow: hidden; border-radius: var(--radius-lg); }
+.wp-block-image.media-rounded img { width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+
+/* Botones de bloque con estilo Lubrax: sin el espaciado de WordPress */
+.wp-block-buttons > .wp-block-button[class*="is-style-lbx"] { margin: 0; }
+
+/* ==========================================================================
+   03. Formularios de Contact Form 7 (sin los estilos ni el JS del plugin)
+   ========================================================================== */
+.wpcf7 .hidden-fields-container { display: none; }
+.wpcf7 .screen-reader-response { position: absolute !important; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.wpcf7 .wpcf7-response-output { display: none; } /* Mensajes: [data-form-error] y [data-form-success] (forms.js) */
+.wpcf7-form-control-wrap { position: relative; display: block; }
+/* CF7 envuelve cada campo en un <span>: el aviso de Bootstrap ya no es hermano del campo */
+.was-validated .wpcf7-form-control-wrap:has(:invalid) ~ .invalid-feedback,
+.wpcf7-form-control-wrap:has(.is-invalid) ~ .invalid-feedback { display: block; }
+.wpcf7-not-valid-tip { display: block; margin-top: .25rem; font-size: .875em; color: var(--bs-form-invalid-color); } /* Envío sin JavaScript */
+.lbx-hp { position: absolute !important; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.wpcf7 form[aria-busy="true"] [type="submit"] { cursor: progress; opacity: .7; }
+/* Newsletter del footer: CF7 agrega un contenedor alrededor del <form> */
+.wpcf7:has(> .newsletter) + .footer-pills { margin-top: 2rem; }
+.newsletter .wpcf7-form-control-wrap { position: static; }
+.form-success [data-form-case] strong { color: var(--lbx-yellow); letter-spacing: .02em; }
+.cf-turnstile { margin-bottom: 1rem; }
+
+/* ==========================================================================
+   04. Buscador interno (search.html)
+   ========================================================================== */
+.search-results__form { max-width: 36rem; }
+.search-results__form .form-control { height: 3.25rem; }
+.search-results__group + .search-results__group { margin-top: clamp(3rem, 6vw, 4.5rem); }
+.search-results__count { font-weight: 400; color: var(--lbx-muted); }
+.search-results__pages { display: grid; gap: 1rem; margin: 0; padding: 0; list-style: none; }
+.search-results__pages li { padding: 1.25rem 1.5rem; border: 1px solid var(--lbx-line); border-radius: var(--radius); background: #fff; }
+.search-results__pages a { font-family: var(--font-display); font-weight: 700; color: var(--lbx-green); text-decoration: none; }
+.search-results__pages a:hover { text-decoration: underline; }
+.search-results__empty { max-width: 40rem; }
+
+/* ==========================================================================
+   05. Banner del catálogo (Opciones del tema > Banner del catálogo)
+   ========================================================================== */
+.promo-card { background: radial-gradient(80% 70% at 70% 80%, rgba(132, 234, 0, .25), transparent 70%), var(--promo-bg, var(--lbx-green-900)); }
+.promo-card img { height: auto; }
+.promo-card--dark strong { color: var(--lbx-green-900); }
+.promo-card--dark span { color: var(--lbx-ink); }
+.promo-card:focus-visible { outline: 3px solid var(--lbx-yellow); outline-offset: 3px; }

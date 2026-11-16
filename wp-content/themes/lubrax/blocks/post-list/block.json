@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/post-list",
+	"title": "Listado del blog",
+	"category": "lubrax",
+	"icon": "excerpt-view",
+	"description": "Encabezado, buscador, orden, categorías, tarjetas paginadas y barra lateral (populares y etiquetas). En una categoría o etiqueta arranca filtrado.",
+	"textdomain": "lubrax",
+	"attributes": {
+		"lead": { "type": "string", "default": "Artículos sobre tendencias y noticias del sector" }
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"render": "file:./render.php"
+}

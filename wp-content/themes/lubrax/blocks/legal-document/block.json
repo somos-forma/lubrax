@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/legal-document",
+	"title": "Documento legal",
+	"category": "lubrax",
+	"icon": "media-text",
+	"description": "Texto legal con índice lateral (políticas, términos). Cada título H2 abre una sección numerada del índice; al final, la sección de contacto.",
+	"keywords": [
+		"legal",
+		"privacidad",
+		"términos",
+		"políticas"
+	],
+	"textdomain": "lubrax",
+	"usesContext": [ "postId" ],
+	"attributes": {
+		"tocTitle": { "type": "string", "default": "Contenido" },
+		"showContact": { "type": "boolean", "default": true },
+		"contactTitle": { "type": "string", "default": "Contacto" },
+		"contactText": { "type": "string", "default": "Para consultas sobre este documento:" },
+		"contactEmail": { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"render": "file:./render.php"
+}

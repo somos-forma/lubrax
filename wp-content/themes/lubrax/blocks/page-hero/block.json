@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/page-hero",
+	"title": "Encabezado de página",
+	"category": "lubrax",
+	"icon": "cover-image",
+	"description": "Título de la página, migas de pan y bajada sobre la imagen destacada (o la imagen por defecto). Opcional: canales de atención (teléfono, correo y WhatsApp) y fecha de última actualización (páginas legales).",
+	"textdomain": "lubrax",
+	"usesContext": [ "postId", "postType" ],
+	"attributes": {
+		"lead": { "type": "string", "default": "" },
+		"compact": { "type": "boolean", "default": true },
+		"channels": { "type": "boolean", "default": false },
+		"updated": { "type": "string", "default": "" }
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"render": "file:./render.php"
+}

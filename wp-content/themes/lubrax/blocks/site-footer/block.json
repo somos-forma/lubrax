@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lubrax/site-footer",
+	"title": "Pie de página Lubrax",
+	"category": "lubrax",
+	"icon": "table-row-after",
+	"description": "Datos de contacto y redes (Ajustes > Datos de Lubrax), newsletter y menús del footer (Apariencia > Menús).",
+	"textdomain": "lubrax",
+	"attributes": {
+		"showNewsletter": { "type": "boolean", "default": true },
+		"newsletterTitle": { "type": "string", "default": "Newsletter" }
+	},
+	"supports": {
+		"html": false,
+		"multiple": false,
+		"reusable": false,
+		"inserter": false
+	},
+	"render": "file:./render.php"
+}

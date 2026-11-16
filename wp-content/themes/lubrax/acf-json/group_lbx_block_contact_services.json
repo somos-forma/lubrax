@@ -1,0 +1,272 @@
+{
+    "key": "group_lbx_block_contact_services",
+    "title": "Bloque: Servicios de contacto",
+    "fields": [
+        {
+            "key": "field_lbx_srv_antetitulo",
+            "label": "Antetítulo",
+            "name": "srv_antetitulo",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_srv_titulo",
+            "label": "Título",
+            "name": "srv_titulo",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "70",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_srv_texto",
+            "label": "Texto",
+            "name": "srv_texto",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 2,
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_lbx_srv_items",
+            "label": "Servicios",
+            "name": "srv_items",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "field_lbx_srv_item_titulo",
+            "button_label": "Agregar servicio",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_lbx_srv_item_icono",
+                    "label": "Ícono",
+                    "name": "icono",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "20",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "factory": "Planta",
+                        "flask": "Laboratorio",
+                        "users": "Personas",
+                        "truck": "Camión",
+                        "droplet": "Gota",
+                        "headset": "Atención",
+                        "package": "Envase",
+                        "map": "Mapa",
+                        "check-circle": "Check",
+                        "layers": "Capas",
+                        "store": "Tienda",
+                        "mail": "Correo",
+                        "phone": "Teléfono",
+                        "info": "Información"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0,
+                    "parent_repeater": "field_lbx_srv_items"
+                },
+                {
+                    "key": "field_lbx_srv_item_titulo",
+                    "label": "Título",
+                    "name": "titulo",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "40",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_lbx_srv_items"
+                },
+                {
+                    "key": "field_lbx_srv_item_tipo",
+                    "label": "Motivo del formulario",
+                    "name": "tipo",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "El botón elige este motivo y baja al formulario.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "40",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "cliente": "Quiero ser cliente",
+                        "distribuidor": "Quiero ser distribuidor",
+                        "industrial": "Ventas industriales",
+                        "pedido": "Pedido y disponibilidad",
+                        "consulta": "Consulta técnica",
+                        "capacitacion": "Capacitación técnica",
+                        "analisis": "Análisis de aceite (Lubrax Express)",
+                        "reclamo-producto": "Reclamo de producto",
+                        "reclamo-servicio": "Reclamo de servicio o entrega",
+                        "garantia": "Garantía",
+                        "sugerencia": "Sugerencia o felicitación"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0,
+                    "parent_repeater": "field_lbx_srv_items"
+                },
+                {
+                    "key": "field_lbx_srv_item_texto",
+                    "label": "Texto",
+                    "name": "texto",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "rows": 2,
+                    "placeholder": "",
+                    "new_lines": "",
+                    "parent_repeater": "field_lbx_srv_items"
+                },
+                {
+                    "key": "field_lbx_srv_item_boton",
+                    "label": "Texto del botón",
+                    "name": "boton",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "60",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_lbx_srv_items"
+                },
+                {
+                    "key": "field_lbx_srv_item_destacado",
+                    "label": "Destacado",
+                    "name": "destacado",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "40",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "Tarjeta verde",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": "",
+                    "parent_repeater": "field_lbx_srv_items"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "lubrax/contact-services"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Tarjetas que eligen el motivo del formulario de contacto.",
+    "show_in_rest": 1,
+    "modified": 1792956852
+}

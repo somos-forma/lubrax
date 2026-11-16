@@ -1,0 +1,49 @@
+{
+    "key": "group_lbx_post",
+    "title": "Entrada del blog",
+    "fields": [
+        {
+            "key": "field_lbx_post_popular",
+            "label": "Artículo popular",
+            "name": "popular",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Mostrar en «Artículos populares» (barra lateral del blog)",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1792967842,
+    "local_file": "C:\/laragon\/www\/lubrax\/wp-content\/themes\/lubrax\/acf-json\/group_lbx_post.json"
+}

@@ -1,0 +1,233 @@
+{
+    "key": "group_lbx_block_image_band",
+    "title": "Bloque: Banda con imagen y servicios",
+    "fields": [
+        {
+            "key": "field_lbx_band_imagen",
+            "label": "Imagen de fondo",
+            "name": "band_imagen",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "webp,avif,jpg,jpeg,png",
+            "preview_size": "thumbnail"
+        },
+        {
+            "key": "field_lbx_band_antetitulo",
+            "label": "Antetítulo",
+            "name": "band_antetitulo",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_band_titulo",
+            "label": "Título",
+            "name": "band_titulo",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_lbx_band_servicios",
+            "label": "Servicios",
+            "name": "band_servicios",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Agregar servicio",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_lbx_band_srv_icono",
+                    "label": "Ícono",
+                    "name": "icono",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "20",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "factory": "Planta",
+                        "flask": "Laboratorio",
+                        "users": "Personas",
+                        "truck": "Camión",
+                        "droplet": "Gota",
+                        "headset": "Atención",
+                        "package": "Envase",
+                        "map": "Mapa",
+                        "check-circle": "Check",
+                        "layers": "Capas",
+                        "store": "Tienda",
+                        "mail": "Correo",
+                        "phone": "Teléfono",
+                        "info": "Información"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0,
+                    "parent_repeater": "field_lbx_band_servicios"
+                },
+                {
+                    "key": "field_lbx_band_srv_titulo",
+                    "label": "Título",
+                    "name": "titulo",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "30",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_lbx_band_servicios"
+                },
+                {
+                    "key": "field_lbx_band_srv_texto",
+                    "label": "Texto",
+                    "name": "texto",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "rows": 2,
+                    "placeholder": "",
+                    "new_lines": "",
+                    "parent_repeater": "field_lbx_band_servicios"
+                }
+            ]
+        },
+        {
+            "key": "field_lbx_band_titulo_grande",
+            "label": "Título destacado",
+            "name": "band_titulo_grande",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Cada línea es una línea del título animado.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "60",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 3,
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_lbx_band_boton",
+            "label": "Botón",
+            "name": "band_boton",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "40",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "lubrax/image-band"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "modified": 1792956852
+}

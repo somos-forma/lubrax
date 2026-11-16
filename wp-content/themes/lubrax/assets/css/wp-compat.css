@@ -1,0 +1,33 @@
+/*!
+ * Lubrax · wp-compat.css
+ * Ajustes para que el marcado de bloques de WordPress no altere la maqueta (main.css).
+ * Se carga después de main.css.
+ */
+
+/* Envoltorios de template parts (<div class="wp-block-template-part">): no participan del layout.
+   El header de la maqueta es position: fixed. */
+.wp-site-blocks > .wp-block-template-part { display: contents; }
+
+/* Sin separación entre header, main y footer, ni entre las secciones del <main>: cada sección
+   define su propio espaciado (.section). */
+.wp-site-blocks > *,
+#main > *,
+.lbx-sections > * { margin-block: 0; } /* .lbx-sections: contenido de la plantilla "Página con patrones" */
+
+/* Grilla de Bootstrap dentro de un grupo con layout "flow": respeta el gutter vertical de .row. */
+.row.is-layout-flow > *,
+.row.is-layout-constrained > * { margin-block: var(--bs-gutter-y) 0; }
+
+/* Contenido de entradas y páginas: imágenes y bloques con ancho amplio. */
+.wp-block-post-content > .alignwide { max-width: 1320px; }
+.wp-block-post-content > .alignfull { max-width: none; }
+.wp-block-image img { height: auto; }
+
+/* Enlace "Saltar al contenido" que agrega WordPress: usa el estilo .skip-link de la maqueta. */
+.skip-link.screen-reader-text:focus {
+  clip: auto; clip-path: none; width: auto; height: auto;
+  background: var(--lbx-yellow); color: var(--lbx-green-900);}
+
+/* Barra de administración: el header fijo baja junto con ella. */
+.admin-bar .site-header { top: var(--wp-admin--admin-bar--height, 32px); }
+@media (max-width: 600px) { .admin-bar .site-header { top: 0; } }

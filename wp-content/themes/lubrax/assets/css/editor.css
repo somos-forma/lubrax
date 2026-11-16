@@ -1,0 +1,7 @@
+/*!
+ * Lubrax · editor.css — solo en el editor de bloques.
+ * El header fijo y las animaciones de scroll no aplican dentro del editor.
+ */
+.site-header { position: relative; background: var(--lbx-green-900); }
+.page-hero { margin-top: 0; }
+[data-reveal] { opacity: 1 !important; transform: none !important; clip-path: none !important; }
